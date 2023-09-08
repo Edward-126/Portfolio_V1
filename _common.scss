@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 300;
+}
+
+::-moz-selection {
+    background: #FACF3A;
+    color: #000;
+}
+
+::selection {
+    background: #FACF3A;
+    color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #191919;
+    color: #fff;
+}
+
+.sub-title {
+    font-size: $headf;
+    font-weight: $headw;
+    color: #fff;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid $mainc;
+    padding: 14px 50px;
+    border-radius: 25px;
+    color: #fff;
+    transition: background .5s;
+
+    &:hover {
+        color: #000;
+        background-color: $mainc;
+    }
+}
